@@ -1,0 +1,98 @@
+#item-header-img {
+    background-image: url('../img/item-bg.jpg');
+}
+
+#item-heading {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+#guide-thumbnail {
+	display: block;
+}
+
+.btn-right{
+	width: 48%;
+}
+
+.btn-left{
+	margin-right: 1%;
+	width: 48%;
+}
+
+.kt-roaming {
+	color: #ffffff;
+	background-color: #E50D11;
+    border-color: #E50D11;
+}
+
+.kt-roaming:hover {
+	color: #ffffff;
+	background-color: #0BF0E8;
+    border-color: #0BF0E8;
+}
+
+/* 二쇱썝�씠 �젙�쓽�븳 css */
+.tab {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.insert-item {
+    text-align: center;
+    align-content: center;
+}
+
+.item-box {
+	border: 1px solid #000;
+	text-align: center;
+	float: left; 
+	width: 30%;
+    padding: 5px;
+    margin: 10px;
+}
+
+.pagination-wrap {
+    display: flex;
+}
+
+.next-img {
+    width: 30%;
+}
+
+/* Float the list items side by side */
+.tab li {
+	float: left;
+}
+/* Style the links inside the list items */
+.tab li a {
+	display: inline-block;
+	color: #000;
+	text-align: center;
+	text-decoration: none;
+	padding: 14px 16px;
+	font-size: 17px;
+	transition: 0.3s;
+}
+/* Style the tab content */
+.tabcontent {
+	display: none;
+	background-color: #CCCCCC;
+	padding: 6px 12px;
+	color: #fff;
+}
+
+ul.tab li.current {
+	background-color: #CCCCCC;
+	color: #222;
+}
+
+.tabcontent.current {
+	display: block;
+}
+
+#tab2{
+	text-align: center;
+}

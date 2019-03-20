@@ -1,0 +1,57 @@
+#nav-logo {
+    width: 105px;
+    height: 35px;
+}
+
+#nav-user {
+    margin:0px 10px;
+    width: 35px;
+    height: 30px;
+}
+
+table{ width:100%; border-top : 3px solid #111; border-bottom: 3px solid #111; padding:20px}
+.even{ font-size:15px; vertical-align:top; border-bottom:1px solid #DDD; }
+.more{width:10%; border-bottom:1px solid #DDD;}
+td{padding:10px}
+
+.pagination {
+  padding: 20px;
+}
+
+.pagination a {
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius:5px;
+}
+
+.pagination a.active {
+  background-color: #555555;
+  color: white;
+  border-radius:5px
+}
+
+.pagination a.active:hover{
+  color:white;
+  background-color: #FFCD12;
+}
+
+.gender{
+  width:100%;
+  border:0px;
+}
+.gender td{
+  padding:0px 5px;
+  min-width: 100px;
+}
+
+.header-link{
+    color:#fff;
+    font-size: 15px;
+    letter-spacing:0.5px;
+}
+
+.header-link:hover{
+    color:#FFCD12;
+}
+
